@@ -1,12 +1,16 @@
 package basiccoreprograms;
-
-import java.util.Scanner;
-
 public class poweroftwo {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		int num=0;
+	
 		System.out.println("Please enter the power value:");
-		int num = sc.nextInt();
+		try
+		{
+			num = Integer.parseInt(args[0]);
+		}
+		catch (NumberFormatException e) {
+			e.printStackTrace();
+		}
 		int power = 1;
 		if(num >= 0 && num < 31)
 		{

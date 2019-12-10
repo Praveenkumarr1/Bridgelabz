@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class harmonic {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner x = new Scanner(System.in);
 		System.out.println("Please enter the Nth harmonic value:");
-		int num = sc.nextInt();
+		int num = x.nextInt();
 		final float a = 1;
 		double harmonic  = 0;
 		

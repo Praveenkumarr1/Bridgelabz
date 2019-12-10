@@ -14,4 +14,8 @@ public class inputclass {
 	{
 		number = s.nextInt();
 	}
+	public static void inputfactor()
+	{
+		number = s.nextInt();
+	}
 }

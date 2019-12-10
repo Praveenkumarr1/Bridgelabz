@@ -1,7 +1,5 @@
 package basiccoreprograms;
-
 import java.util.Scanner;
-
 public class flipcoin {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
